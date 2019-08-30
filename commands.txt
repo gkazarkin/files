@@ -1,9 +1,14 @@
+git status
+git add *
+git commit -m "text"
+git push
+
 cd путь
 git status
 (локально)
 ls
 (показывает файлы)
-git add название‘айла
+git add *
 git commit -m
 git commit -a -m
 git commit -am
