@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bd4b5d6-1c82-4a3c-95c1-02d6c1fbf07f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PBE7AKGFLsPBu597NFnPrF8UMw" />
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554371861829" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Appium" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="GlebTests.SelenideGrible.widgets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ClMain.testRegistration">
+    <configuration name="ClMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GlebTests.CL2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GlebTests.CL2" />
+      <option name="MAIN_CLASS_NAME" value="GlebTests.CL2.ClMain" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClMain.testRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GlebTests.CL2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GlebTests.CL2" />
+      <option name="MAIN_CLASS_NAME" value="GlebTests.CL2.ClMain" />
+      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlebTests in autotests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GlebTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GlebTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlebTests.Android in autotests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GlebTests.Android.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GlebTests.Android" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickStartTest.articleDetailsShouldContainsCorrectData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GlebTests.Selenide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GlebTests.Selenide" />
+      <option name="MAIN_CLASS_NAME" value="GlebTests.Selenide.QuickStartTest" />
+      <option name="METHOD_NAME" value="articleDetailsShouldContainsCorrectData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClMain.testRegistration" />
+        <item itemvalue="JUnit.QuickStartTest.articleDetailsShouldContainsCorrectData" />
+        <item itemvalue="JUnit.GlebTests in autotests" />
+        <item itemvalue="JUnit.GlebTests.Android in autotests" />
+        <item itemvalue="JUnit.ClMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bd4b5d6-1c82-4a3c-95c1-02d6c1fbf07f" name="Default Changelist" comment="" />
+      <created>1554190583386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554190583386</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="array" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
