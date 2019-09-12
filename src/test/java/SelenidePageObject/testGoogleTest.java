@@ -1,16 +1,19 @@
 package SelenidePageObject;
 
 import com.codeborne.selenide.Configuration;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static com.codeborne.selenide.CollectionCondition.sizeGreaterThan;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.open;
 
-public class GoogleTest {
+public class testGoogleTest {
     { Configuration.browser = "chrome"; }
+
+    @Ignore
     @Test
-    public void userCanSearch() {
+    public void testUserCanSearch() {
         open("https://google.com/ncr");
         new GooglePage().searchFor("selenide");
 

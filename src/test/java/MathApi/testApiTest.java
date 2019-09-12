@@ -1,3 +1,5 @@
+package MathApi;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import java.io.File;
@@ -7,10 +9,7 @@ import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 
 import org.json.JSONObject;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import static io.restassured.RestAssured.*;
 
@@ -48,7 +47,7 @@ import static io.restassured.RestAssured.*;
 //
 //        Здесь команда path(«results.total») позволяет извлечь значение, используя JsonPath
 
-public class ApiTest {
+public class testApiTest {
 
     private String usersUrl = "http://users.bugred.ru/tasks/rest/";
 
@@ -94,11 +93,12 @@ public class ApiTest {
                 .prettyPrint();
     }
 
+    @Ignore
     @Test
     //Если простые, ключ:значение
     public void testSimplePostTest() {
         JSONObject jsonObj = new JSONObject()
-                .put("email_owner","manager@mail.ru")
+                .put("email_owner","manager1@mail.ru")
                 .put("task_id","2233")
                 .put("task_id", "2234")
                 .put("hours", "10")
@@ -107,7 +107,10 @@ public class ApiTest {
                 .put("days", "10")
                 .put("day_weeks", "5");
 
-        given().header("Authorization", "Bearer  DtOicrRY5u42GABqagFB1BCB")
+        given()
+//                .param("username", "simpleUserName")
+//                .param("password", "pa$$w0rd")
+                .header("Authorization", "Bearer  DtOicrRY5u42GABqagFB1BCB")
                 .baseUri("http://users.bugred.ru/tasks/rest").basePath("/AddTaskInCron")
                 .contentType(ContentType.JSON).accept(ContentType.JSON)
                 .when().log().body().body(jsonObj.toString()).post()

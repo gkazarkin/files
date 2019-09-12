@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="CL2.ClTests" time="46.641" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="MathTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
     <property name="java.vm.version" value="25.201-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gkazarkin\Desktop\Code\Web"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gkazarkin\gitfiles\files"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,9 +15,8 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="test" value="ClTests"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\gkazarkin\Desktop\Code\Web"/>
+    <property name="user.dir" value="C:\Users\gkazarkin\gitfiles\files"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
@@ -30,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\mingw-w64\x86_64-6.3.0-posix-seh-rt_v5-rev1\mingw64\bin;C:\Users\bpakilla\PycharmProjects\NTRWork\LinuxFiles\fastText\fasttext.exe;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gkazarkin\AppData\Local\Android\Sdk\emulator;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk-10.0.1;C:\Program Files\nodejs\;C:\Users\gkazarkin\AppData\Local\Android\Sdk\emulator;C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools\bin;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools\bin;C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;C:\Ruby23-x64\bin;C:\Users\gkazarkin\AppData\Local\Microsoft\WindowsApps;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\emulator;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk;C:\Program Files\Java\jdk-10.0.1\bin;C:\Users\gkazarkin\AppData\Roaming\npm;C:\Users\gkazarkin\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.6.0;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\mingw-w64\x86_64-6.3.0-posix-seh-rt_v5-rev1\mingw64\bin;C:\Users\bpakilla\PycharmProjects\NTRWork\LinuxFiles\fastText\fasttext.exe;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gkazarkin\AppData\Local\Android\Sdk\emulator;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk-10.0.1;C:\Program Files\nodejs\;C:\Users\gkazarkin\AppData\Local\Android\Sdk\emulator;C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools\bin;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools\bin;C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.0\bin;C:\Ruby23-x64\bin;C:\Users\gkazarkin\AppData\Local\Microsoft\WindowsApps;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\platform-tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk\emulator;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201;C:\Users\gkazarkin\AppData\Local\Android\Sdk\tools;C:\Users\gkazarkin\AppData\Local\Android\Sdk;C:\Program Files\Java\jdk-10.0.1\bin;C:\Users\gkazarkin\AppData\Roaming\npm;C:\Users\gkazarkin\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.6.0;;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -47,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -e -Dtest=ClTests"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -66,6 +65,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="CL2.ClTests" name="RegistrationTest" time="17.375"/>
-  <testcase classname="CL2.ClTests" name="ClientCreationTest" time="29.266"/>
+  <testcase classname="MathTest" name="mathTest" time="0.003"/>
+  <testcase classname="MathTest" name="funcTest" time="0"/>
 </testsuite>

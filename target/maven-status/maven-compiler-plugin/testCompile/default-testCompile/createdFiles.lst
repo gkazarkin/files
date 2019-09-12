@@ -4,11 +4,11 @@ OOP\Student.class
 CL2\ClTests.class
 MatchersTests.class
 OOP\Person.class
-SelenidePageObject\GoogleTest.class
+SelenidePageObject\testGoogleTest.class
+MathApi\testApiTest.class
 Android\TestBase.class
 OOP\Human.class
 Others\BankTests.class
-ApiTest.class
 SelenidePageObject\GooglePage.class
 Android\AndroidDriverProvider.class
 MathTest.class
