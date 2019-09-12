@@ -1,3 +1,5 @@
+package MathApi;
+
 import org.junit.Test;
 
 public class MathTest {

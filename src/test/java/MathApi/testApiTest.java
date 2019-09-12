@@ -98,7 +98,7 @@ public class testApiTest {
     //Если простые, ключ:значение
     public void testSimplePostTest() {
         JSONObject jsonObj = new JSONObject()
-                .put("email_owner","manager1@mail.ru")
+                .put("email_owner","manager@mail.ru")
                 .put("task_id","2233")
                 .put("task_id", "2234")
                 .put("hours", "10")
@@ -153,8 +153,6 @@ public class testApiTest {
                 .body("email", Matchers.equalTo("qq" +number+ "@gmail.com"))
                 .body("avatar", Matchers.equalTo("http://users.bugred.ru//tmp/default_avatar.jpg"));
     }
-
-
 }
 
 //Matchers.hasItem (коллекции)

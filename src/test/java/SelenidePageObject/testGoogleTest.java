@@ -11,7 +11,6 @@ import static com.codeborne.selenide.Selenide.open;
 public class testGoogleTest {
     { Configuration.browser = "chrome"; }
 
-    @Ignore
     @Test
     public void testUserCanSearch() {
         open("https://google.com/ncr");
