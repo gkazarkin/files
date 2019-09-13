@@ -1,10 +1,7 @@
 package Others;
 
 import com.codeborne.selenide.Configuration;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -37,6 +34,7 @@ public class googleTests {
         $(byName("btnK")).click();
     }
 
+    @Ignore
     @Test
     public void luxoftTest() {
         $(By.name("q")).setValue("Luxoft").pressEnter();

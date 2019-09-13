@@ -134,6 +134,7 @@ public class testApiTest {
                 .body("job", Matchers.hasItem("zion resident2"));
     }
 
+    @Ignore
     @Test
     public void testPostTest() throws Exception {
         Random rnd = new Random(System.currentTimeMillis());

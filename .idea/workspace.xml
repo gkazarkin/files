@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bba31bb-c979-42b8-9831-28765433d878" name="Default Changelist" comment="" />
+    <list default="true" id="31b177b6-54fe-445b-88bf-5d023b92a9b8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,7 +22,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1Qgk1bALP58G8GPzm8d9myHtMBe" />
+  <component name="ProjectId" id="1Qjrr9qrE17XD3Z8vzrXQ8tRnOi" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,47 +35,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Others in Web">
-    <configuration name="All in Web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Web" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.BankTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CL2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CL2" />
-      <option name="MAIN_CLASS_NAME" value="CL2.ClTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleTest.userCanSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Web" />
+  <component name="RunManager" selected="JUnit.testApiTest.testSimplePostTest">
+    <configuration name="LambdaSampleParallelTestAutomation.verifyStartTestingButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SelenidePageObject.*" />
@@ -76,34 +45,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SelenidePageObject" />
-      <option name="MAIN_CLASS_NAME" value="SelenidePageObject.GoogleTest" />
-      <option name="METHOD_NAME" value="userCanSearch" />
+      <option name="MAIN_CLASS_NAME" value="SelenidePageObject.LambdaSampleParallelTestAutomation" />
+      <option name="METHOD_NAME" value="verifyStartTestingButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Others in Web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Web" />
+    <configuration name="SuiteTestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SuiteTestClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Others.*" />
+          <option name="PATTERN" value="MathApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="MathApi" />
+      <option name="MAIN_CLASS_NAME" value="MathApi.testApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testApiTest.testSimplePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MathApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MathApi" />
+      <option name="MAIN_CLASS_NAME" value="MathApi.testApiTest" />
+      <option name="METHOD_NAME" value="testSimplePostTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Others in Web" />
-        <item itemvalue="JUnit.BankTests" />
-        <item itemvalue="JUnit.GoogleTest.userCanSearch" />
-        <item itemvalue="JUnit.All in Web" />
-        <item itemvalue="JUnit.ClTests" />
+        <item itemvalue="JUnit.testApiTest.testSimplePostTest" />
+        <item itemvalue="JUnit.testApiTest" />
+        <item itemvalue="JUnit.LambdaSampleParallelTestAutomation.verifyStartTestingButton" />
+        <item itemvalue="JUnit.SuiteTestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -112,11 +106,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3bba31bb-c979-42b8-9831-28765433d878" name="Default Changelist" comment="" />
-      <created>1568199412896</created>
+      <changelist id="31b177b6-54fe-445b-88bf-5d023b92a9b8" name="Default Changelist" comment="" />
+      <created>1568295042301</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568199412896</updated>
+      <updated>1568295042301</updated>
     </task>
     <servers />
   </component>
